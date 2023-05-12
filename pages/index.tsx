@@ -14,8 +14,8 @@ export default function Home() {
         className={`w-full h-full flex flex-col justify-between p-12 ${inter.className}`}
       >
         <div>
-          <h1 className={`text-4xl font-bold text-gray-800 ${jetbrains.className}`}>CatPowered LLC</h1>
-          <p className='text-gray-600'>Building software that scales.</p>
+          <h1 className={`text-4xl font-bold text-gray-800 ${jetbrains.className}`}>CatPowered Ltd</h1>
+          <h2 className='text-gray-600'>Building software that scales.</h2>
         </div>
         <div className="flex flex-row w-full justify-between">
           <div className="flex flex-row space-x-4">
@@ -23,7 +23,7 @@ export default function Home() {
             <a className='text-gray-700 hover:text-gray-800 hover:underline' href="https://twitter.com/catpowered_">Twitter</a>
             <a className='text-gray-700 hover:text-gray-800 hover:underline' href="https://github.com/catpowered">Github</a>
           </div>
-          <p className='text-gray-600'>&copy; 2023 CatPowered LLC</p>
+          <p className='text-gray-600'>&copy; 2023 CatPowered Ltd</p>
         </div>
       </main>
     </>
