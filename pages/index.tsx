@@ -20,7 +20,7 @@ export default function Home() {
         <div className="flex flex-row w-full justify-between">
           <div className="flex flex-row space-x-4">
             <a className='text-gray-700 hover:text-gray-800 hover:underline' href="mailto:contact@catpowered.xyz">Email</a>
-            <a className='text-gray-700 hover:text-gray-800 hover:underline' href="https://twitter.com/catpowered">Twitter</a>
+            <a className='text-gray-700 hover:text-gray-800 hover:underline' href="https://twitter.com/catpowered_">Twitter</a>
             <a className='text-gray-700 hover:text-gray-800 hover:underline' href="https://github.com/catpowered">Github</a>
           </div>
           <p className='text-gray-600'>&copy; 2023 CatPowered LLC</p>
