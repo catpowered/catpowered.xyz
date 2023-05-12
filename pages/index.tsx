@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className={`text-4xl font-bold text-gray-800 ${jetbrains.className}`}>CatPowered Ltd</h1>
           <h2 className='text-gray-600'>Building software that scales.</h2>
         </div>
-        <div className="flex flex-row w-full justify-between">
+        <div className="flex flex-col w-full space-y-2 sm:space-y-0 sm:flex-row sm:justify-between">
           <div className="flex flex-row space-x-4">
             <a className='text-gray-700 hover:text-gray-800 hover:underline' href="mailto:contact@catpowered.xyz">Email</a>
             <a className='text-gray-700 hover:text-gray-800 hover:underline' href="https://twitter.com/catpowered_">Twitter</a>
