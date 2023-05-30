@@ -11,7 +11,7 @@ export default function Home() {
         className={`w-full h-full flex flex-col justify-between p-12 ${inter.className}`}
       >
         <div className={"flex flex-row items-center space-x-4"}>
-          <img className='h-24 w-auto' src='/logo.svg' alt='CatPowered Ltd Logo made of 3 overlapping hexagons with varying opacity to create 3D effect' />
+          <img className='h-16 w-auto' src='/logo.svg' alt='CatPowered Ltd Logo made of 3 overlapping hexagons with varying opacity to create 3D effect' />
           <div>
             <h1 className={`text-4xl font-bold text-gray-800 ${jetbrains.className}`}>CatPowered Ltd</h1>
             <h2 className='text-gray-600'>Building software that scales.</h2>
