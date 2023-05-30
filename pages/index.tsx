@@ -7,15 +7,15 @@ const jetbrains = JetBrains_Mono({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>CatPowered</title>
-      </Head>
       <main
         className={`w-full h-full flex flex-col justify-between p-12 ${inter.className}`}
       >
-        <div>
-          <h1 className={`text-4xl font-bold text-gray-800 ${jetbrains.className}`}>CatPowered Ltd</h1>
-          <h2 className='text-gray-600'>Building software that scales.</h2>
+        <div className={"flex flex-row items-center space-x-4"}>
+          <img className='h-24 w-auto' src='/logo.svg' alt='CatPowered Ltd Logo made of 3 overlapping hexagons with varying opacity to create 3D effect' />
+          <div>
+            <h1 className={`text-4xl font-bold text-gray-800 ${jetbrains.className}`}>CatPowered Ltd</h1>
+            <h2 className='text-gray-600'>Building software that scales.</h2>
+          </div>
         </div>
         <div className="flex flex-col w-full space-y-2 sm:space-y-0 sm:flex-row sm:justify-between">
           <div className="flex flex-row space-x-4">
